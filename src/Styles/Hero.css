@@ -5,8 +5,8 @@
 
 .heroWrap{
   min-height: 400px;
-  /* 
-  max-height: 550px; */
+  
+  max-height: 700px; 
   height: calc(70vh - 60px);
   display: flex;
   justify-content: space-between;

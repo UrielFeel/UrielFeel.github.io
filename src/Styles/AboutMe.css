@@ -3,7 +3,9 @@
   grid-template-columns: 60% 35%;
   gap: 5%;
 
-  min-height: 30vh;
+  min-height: 250px;
+  height: 30vh;
+  max-height: 300px;
 
 }
 
@@ -24,5 +26,7 @@
   .aboutMe {
     grid-template-columns: 1fr;
     gap: 0;
+    height: auto;
+    max-height: none;
   }
 }
