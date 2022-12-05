@@ -1,0 +1,28 @@
+.aboutMe{
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 5%;
+
+  height: 30vh;
+
+}
+
+.aboutText{
+  
+}
+
+.aboutImg{
+  background-color: var(--bg);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+  .aboutMe {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

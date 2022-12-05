@@ -9,6 +9,7 @@
 body{
   background-color: var(--light);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 a{
@@ -20,4 +21,5 @@ a{
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 3rem;
 }
