@@ -3,7 +3,7 @@
   grid-template-columns: 60% 35%;
   gap: 5%;
 
-  height: 30vh;
+  min-height: 30vh;
 
 }
 
