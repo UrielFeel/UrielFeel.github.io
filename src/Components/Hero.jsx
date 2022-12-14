@@ -16,7 +16,7 @@ export default function Hero() {
 
           <div className='heroBtnGroup'>
             <a href='#contact' className='btn'>Contactame</a>
-            <a href='#' className='btn'>  Cv <FiDownload size='1.5rem'/></a>
+            <a href='/cv.pdf' download="cv-Uriel-Olmedo" className='btn'>  Cv <FiDownload size='1.5rem'/></a>
           </div>
 
         </div>
